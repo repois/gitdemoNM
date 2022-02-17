@@ -62,7 +62,11 @@ public void initialize() throws IOException
 	@AfterTest
 	public void teardown()
 	{
-		
+		 System.out.println("Test completed 4");
+		 System.out.println("Test completed 5");
+		 System.out.println("Test completed 6");
+		 System.out.println("Test completed 7");
+		 
 		driver.close();
 	
 		
