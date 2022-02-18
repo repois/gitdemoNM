@@ -54,17 +54,17 @@ public class Listeners extends base implements ITestListener {
 
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Test completed done in develop branch");
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Test completed done in develop branch");
 	}
 
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Test completed done in develop branch");
 	}
 
 	public void onFinish(ITestContext context) {

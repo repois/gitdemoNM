@@ -49,6 +49,8 @@ public class HomePage extends base{
 		fp.getEmail().sendKeys("xxx");
 		fp.sendMeInstructions().click();
 		
+		System.out.println("Test completed done in develop branch");
+		System.out.println("Test completed done in develop branch");
 		
 		
 		}
